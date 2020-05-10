@@ -8,15 +8,11 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "jest": "^26.0.1",
-    "lodash": "^4.17.15"
+  "devDependencies": {
+    "jest": "^26.0.1"
   },
   "jest": {
     "testEnvironment": "node",
-    "verbose": true,
-    "moduleNameMapper": {
-      "mockService": "<rootDir>/top_3_words//test/"
-    }
+    "verbose": true
   }
 }
